@@ -1,0 +1,29 @@
+.info {
+  color: white;
+  width: 1200px;
+  margin: auto;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.info h2, h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #117c6f;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.info ul li {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FDD54F;
+  padding: 25px;
+  text-align: justify;
+}
+
+.info ul li p {
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+}
+

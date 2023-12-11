@@ -1,0 +1,57 @@
+.content img {
+  width: 360px;
+}
+
+.content p {
+  color: white;
+}
+
+.content {
+  width: 1000px;
+}
+
+
+
+/* CONTEUDO
+======================================================================*/
+
+.imagem_lateral {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.imagem_lateral > img {
+  width: 300px;
+  margin-left: 20px;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+.imagem_lateral > p {
+  flex: 1;
+  padding: 50px;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  
+  text-align: justify;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: black;
+  color: white;
+  border: 2px var(--padrão-color) solid;
+}
+
+.imagem_lateral p:hover {
+  background-color: var(--padrão-color);
+  color: black;
+  transition: 0.5s;
+}
+
+.content span {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}

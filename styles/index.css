@@ -1,0 +1,225 @@
+/* RESET CSS
+======================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --padrão-color: #FDD54F;
+  --cor-azul: #14213D;
+  --cor-cinza: #E5E5E5;
+  --tamanho-page: 1200px;
+}
+
+/* BANNER HOME
+======================================================================*/
+
+body {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FDD54F;
+
+}
+
+/* NAVEGAÇÃO
+======================================================================*/
+
+#nav {
+  background-color: var(--padrão-color);
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+  list-style: none;
+  width: 800px;
+  justify-content: space-between;
+}
+
+#nav ul li a {
+  padding: 6px 20px;
+  color: black;
+  font-weight: 100;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 15px;
+  position: relative;
+}
+
+
+
+#nav ul li a::after {
+  content: " ";
+  width: 0%;
+  height: 4px;
+  background-color: #14213D;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.2s ease-in-out;
+
+}
+
+#nav ul li a:hover::after {
+  width: 100%;
+}
+
+
+
+/* CONTAINER
+======================================================================*/
+.division {
+  border: 3px var(--padrão-color) solid;  
+
+}
+
+#banner {
+  margin: auto;
+  width: 1200px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#banner img {
+  width: 800px;
+  margin-top: 50px;
+}
+
+#banner a {
+  color: var(--padrão-color);
+  padding: 30px 150px;
+  border: 1px var(--padrão-color) solid;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#banner a:hover {
+  transition: 0.5s;
+  background: rgb(253,213,79);
+  background: var(--padrão-color);
+  color: black;
+}
+
+/* CONTAINER
+======================================================================*/
+
+.content {
+  width: 800px;
+  margin: auto;
+  background-color: black;
+  text-align: center;
+}
+
+/* INCIO CONTEUDO
+======================================================================*/
+
+.text {
+  font-size: 28px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: var(--padrão-color);
+  margin-top: 10px;
+  border-bottom: 2px var(--padrão-color) solid;
+}
+
+/* CONTEUDO
+======================================================================*/
+
+.imagem_lateral {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagem_lateral > img {
+  width: 40%;
+  margin-left: 20px;
+  border-radius: 10px;
+  align-items: flex-start;
+}
+
+.imagem_lateral > p {
+  flex: 1;
+  padding: 50px;
+  font-size: 1.4em;
+  margin-left: 20px;
+  border-radius: 10px;
+  
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: black;
+  color: white;
+  border: 2px var(--padrão-color) solid;
+}
+
+.imagem_lateral p:hover {
+  background-color: var(--padrão-color);
+  color: black;
+  transition: 0.5s;
+}
+
+
+
+/* FOOTER
+======================================================================*/
+.content_footer {
+  margin: auto;
+  text-align: center;
+  background-color: var(--padrão-color);
+}
+
+#footer {
+  background-image: url();
+  width: var(--tamanho-page);
+  margin: auto;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#info {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+#info p {
+  padding: 10px;
+  text-align: left;
+  color: var(--cor_azulmarinho);
+ }
+
+#img_footer {
+  width: 200px;
+}
+
+span {
+  color: #117c6f;
+}
+
